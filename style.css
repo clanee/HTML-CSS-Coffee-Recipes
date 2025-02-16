@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url(fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+footer {
+  background-color: #333232;
+  font-family: "Raleway", sans-serif;
+  height: 75px;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-footer-txt {
+  margin: 10px 0px 10px 40px;
+  color: #f7b2ad;
+  font-size: 35px;
+}
+
+#right-footer-txt {
+  margin: 10px 40px 10px 0px;
+  color: #ceb7b3;
+  font-size: 25px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.preview {
+  background-color: #b7b7b7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 45px;
+  height: 400px;
+}
+
+.preview-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Comfortaa", sans-serif;
+}
+
+#preview-recipes {
+  color: #333232;
+  font-size: 60px;
+  margin: 0;
+}
+
+#preview-before {
+  color: #333232;
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+#preview-description {
+  font-size: 20px;
+  margin: 15px 0;
+  color: #333232;
+}
+
+.preview-image {
+  height: 300px;
+  display: flex;
+}
+
+#capuccino-image {
+  width: 220px;
+  height: 220px;
+  z-index: 2;
+  position: relative;
+  margin: 40px;
+}
+
+.preview-back {
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  position: absolute;
+  border-radius: 100%;
+  background-color: #f7b2ad;
+}
